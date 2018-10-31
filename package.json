@@ -1,0 +1,50 @@
+{
+  "name": "compodocExample",
+  "version": "0.0.1",
+  "author": "Ionic Framework",
+  "homepage": "http://ionicframework.com/",
+  "private": true,
+  "scripts": {
+    "start": "ionic-app-scripts serve",
+    "clean": "ionic-app-scripts clean",
+    "build": "ionic-app-scripts build",
+    "lint": "ionic-app-scripts lint",
+    "compodoc": "./node_modules/.bin/compodoc -d ./docs/ -p ./tsconfig.json --open --serve",
+    "practica": "./node_modules/.bin/compodoc -d ./docs-practica/ -p ./tsconfig.json --serve --customFavicon ./ionic-favicon.ico",
+    "practica-2": "./node_modules/.bin/compodoc -d ./docs-practica-2/ -p ./tsconfig.json --serve --customFavicon ./ionic-favicon.ico",
+    "practica-3": "./node_modules/.bin/compodoc -d ./docs-practica-3/ -p ./tsconfig.json --serve --customFavicon ./ionic-favicon.ico --hideGenerator -y ./custom-styles",
+    "practica-4": "./node_modules/.bin/compodoc -d ./docs-practica-4/ -p ./tsconfig.json --serve --customFavicon ./ionic-favicon.ico --hideGenerator -y ./custom-styles",
+    "practica-5": "./node_modules/.bin/compodoc -d ./docs-practica-5/ -p ./tsconfig.json --serve --customFavicon ./ionic-favicon.ico --hideGenerator -y ./custom-styles --includes ./docs-config",
+    "practica-6": "./node_modules/.bin/compodoc -d ./docs-practica-6/ -p ./tsconfig.json --serve --customFavicon ./ionic-favicon.ico --hideGenerator -y ./custom-styles --includes ./docs-config --includesName \"Secciones de la aplicación\""
+  },
+  "dependencies": {
+    "@angular/animations": "5.2.11",
+    "@angular/common": "5.2.11",
+    "@angular/compiler": "5.2.11",
+    "@angular/compiler-cli": "5.2.11",
+    "@angular/core": "5.2.11",
+    "@angular/forms": "5.2.11",
+    "@angular/http": "5.2.11",
+    "@angular/platform-browser": "5.2.11",
+    "@angular/platform-browser-dynamic": "5.2.11",
+    "@ionic-native/camera": "4.3.3",
+    "@ionic-native/core": "~4.15.0",
+    "@ionic-native/splash-screen": "~4.15.0",
+    "@ionic-native/status-bar": "~4.15.0",
+    "@ionic/storage": "2.2.0",
+    "@ngx-translate/core": "8.0.0",
+    "@ngx-translate/http-loader": "^2.0.0",
+    "ionic-angular": "3.9.2",
+    "ionicons": "3.0.0",
+    "rxjs": "5.5.11",
+    "sw-toolbox": "3.6.0",
+    "tunnel-agent": "^0.6.0",
+    "zone.js": "0.8.26"
+  },
+  "devDependencies": {
+    "@compodoc/compodoc": "^1.1.5",
+    "@ionic/app-scripts": "3.2.0",
+    "typescript": "~2.6.2"
+  },
+  "description": "An Ionic project"
+}

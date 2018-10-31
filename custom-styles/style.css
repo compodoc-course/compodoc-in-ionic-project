@@ -1,0 +1,47 @@
+@import "./reset.css";
+@import "./bootstrap.min.css";
+@import "./bootstrap-card.css";
+@import "./font-awesome.min.css";
+@import "./compodoc.css";
+@import "./prism.css";
+@import "./tablesort.css";
+
+/** Nuestros estilos**/
+
+.menu .title {
+    padding: 8px 0;
+    margin-top: 200px;
+    background: turquoise;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.menu {
+    background: url('logotype.png') no-repeat;
+    background-size: 180px;
+    background-position-x: 50%;
+    background-position-y: 2%;
+}
+
+.menu ul.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: whitesmoke;
+}
+
+h1 {
+    font-size: 30px;
+    color: steelblue;
+}
+
+h2 {
+    font-size: 24px;
+    color: thistle;
+}
+
+code {
+    color: #7aa13a;
+    text-decoration: underline
+}

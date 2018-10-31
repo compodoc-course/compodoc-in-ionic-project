@@ -1,0 +1,48 @@
+[
+    {
+        "title": "Sección 1",
+        "file": "section-1.md",
+        "children": [
+            {
+                "title": "Section 1-1",
+                "file": "s1/11.md"
+            },
+            {
+                "title": "Section 1-2",
+                "file": "s1/12.md"
+            },
+            {
+                "title": "Section 1-3",
+                "file": "s1/13.md"
+            },
+            {
+                "title": "Section 1-4",
+                "file": "s1/14.md"
+            }
+        ]
+    },
+    {
+        "title": "Sección 2",
+        "file": "section-2.md",
+        "children": [
+            {
+                "title": "Section 2-1",
+                "file": "s2/21.md",
+                "children": [
+                    {
+                        "title": "Section 2-1-1",
+                        "file": "s2/21/211.md"
+                    }
+                ]
+            },
+            {
+                "title": "Section 2-2",
+                "file": "s2/22.md"
+            }
+        ]
+    },
+    {
+        "title": "Sección 3",
+        "file": "section-3.md"
+    }
+]

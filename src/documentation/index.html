@@ -1,0 +1,167 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>compodocExample documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+	      <link rel="stylesheet" href="./styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="./" class="navbar-brand">compodocExample documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search">
+</div>
+            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content getting-started">
+                   <div class="content-data">
+
+<h1 id="the-ionic-super-starter-">The Ionic Super Starter 🎮</h1>
+<img src="https://user-images.githubusercontent.com/236501/32385619-bddac0ac-c08c-11e7-9ee4-9c892197191f.png" width="400" />
+
+<p>The Ionic Super Starter is a batteries-included starter project for Ionic apps
+complete with pre-built pages, providers, and best practices for Ionic
+development.</p>
+<p>The goal of the Super Starter is to get you from zero to app store faster than
+before, with a set of opinions from the Ionic team around page layout,
+data/user management, and project structure.</p>
+<p>The way to use this starter is to pick and choose the various page types you
+want use, and remove the ones you don&#39;t. If you want a blank slate, this
+starter isn&#39;t for you (use the <code>blank</code> type instead).</p>
+<p>One of the big advances in Ionic was moving from a rigid route-based navigation
+system to a flexible push/pop navigation system modeled off common native SDKs.
+We&#39;ve embraced this pattern to provide a set of reusable pages that can be
+navigated to anywhere in the app. Take a look at the <a href="https://github.com/ionic-team/starters/blob/master/ionic-angular/official/super/src/pages/settings/settings.html">Settings
+page</a>
+for a cool example of a page navigating to itself to provide a different UI
+without duplicating code.</p>
+<h2 id="table-of-contents">Table of Contents</h2>
+<ol>
+<li><a href="#getting-started">Getting Started</a></li>
+<li><a href="#pages">Pages</a></li>
+<li><a href="#providers">Providers</a></li>
+<li><a href="#i18n">i18n</a> (adding languages)</li>
+</ol>
+<h2 id="-a-name-getting-started-a-getting-started"><a name="getting-started"></a>Getting Started</h2>
+<p>To test this starter out, install the latest version of the Ionic CLI and run:</p>
+<div><pre class="line-numbers"><code class="language-bash">ionic start mySuperApp super</code></pre></div><h2 id="pages">Pages</h2>
+<p>The Super Starter comes with a variety of ready-made pages. These pages help
+you assemble common building blocks for your app so you can focus on your
+unique features and branding.</p>
+<p>The app loads with the <code>FirstRunPage</code> set to <code>TutorialPage</code> as the default. If
+the user has already gone through this page once, it will be skipped the next
+time they load the app.</p>
+<p>If the tutorial is skipped but the user hasn&#39;t logged in yet, the Welcome page
+will be displayed which is a &quot;splash&quot; prompting the user to log in or create an
+account.</p>
+<p>Once the user is authenticated, the app will load with the <code>MainPage</code> which is
+set to be the <code>TabsPage</code> as the default.</p>
+<p>The entry and main pages can be configured easily by updating the corresponding
+variables in
+<a href="https://github.com/ionic-team/starters/blob/master/ionic-angular/official/super/src/pages/index.ts">src/pages/index.ts</a>.</p>
+<p>Please read the
+<a href="https://github.com/ionic-team/starters/tree/master/ionic-angular/official/super/src/pages">Pages</a>
+readme, and the readme for each page in the source for more documentation on
+each.</p>
+<h2 id="providers">Providers</h2>
+<p>The Super Starter comes with some basic implementations of common providers.</p>
+<h3 id="user">User</h3>
+<p>The <code>User</code> provider is used to authenticate users through its
+<code>login(accountInfo)</code> and <code>signup(accountInfo)</code> methods, which perform <code>POST</code>
+requests to an API endpoint that you will need to configure.</p>
+<h3 id="api">Api</h3>
+<p>The <code>Api</code> provider is a simple CRUD frontend to an API. Simply put the root of
+your API url in the Api class and call get/post/put/patch/delete </p>
+<h2 id="i18n">i18n</h2>
+<p>Ionic Super Starter comes with internationalization (i18n) out of the box with
+<a href="https://github.com/ngx-translate/core">ngx-translate</a>. This makes it easy to
+change the text used in the app by modifying only one file. </p>
+<h3 id="adding-languages">Adding Languages</h3>
+<p>To add new languages, add new files to the <code>src/assets/i18n</code> directory,
+following the pattern of LANGCODE.json where LANGCODE is the language/locale
+code (ex: en/gb/de/es/etc.).</p>
+<h3 id="changing-the-language">Changing the Language</h3>
+<p>To change the language of the app, edit <code>src/app/app.component.ts</code> and modify
+<code>translate.use(&#39;en&#39;)</code> to use the LANGCODE from <code>src/assets/i18n/</code></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 0;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'getting-started';
+            var COMPODOC_CURRENT_PAGE_URL = 'index.html';
+       </script>
+
+       <script src="./js/libs/custom-elements.min.js"></script>
+       <script src="./js/libs/lit-html.js"></script>
+       <script src="./js/menu-wc.js"></script>
+
+       <script src="./js/libs/bootstrap-native.js"></script>
+
+       <script src="./js/libs/es6-shim.min.js"></script>
+       <script src="./js/libs/EventDispatcher.js"></script>
+       <script src="./js/libs/promise.min.js"></script>
+       <script src="./js/libs/zepto.min.js"></script>
+
+       <script src="./js/compodoc.js"></script>
+
+       <script src="./js/tabs.js"></script>
+       <script src="./js/menu.js"></script>
+       <script src="./js/libs/clipboard.min.js"></script>
+       <script src="./js/libs/prism.js"></script>
+       <script src="./js/sourceCode.js"></script>
+          <script src="./js/search/search.js"></script>
+          <script src="./js/search/lunr.min.js"></script>
+          <script src="./js/search/search-lunr.js"></script>
+          <script src="./js/search/search_index.js"></script>
+       <script src="./js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
