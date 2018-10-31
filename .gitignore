@@ -1,2 +1,8 @@
 # dependencies
 /node_modules
+
+# System Files
+.DS_Store
+Thumbs.db
+package-lock.json
+package-lock.json
